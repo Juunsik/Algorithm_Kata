@@ -12,4 +12,3 @@ def solution(n, slicer, num_list):
         return num_list[slicer[0] : slicer[1] + 1]
     elif n == 4:
         return num_list[slicer[0] : slicer[1] + 1 : slicer[2]]
-    return answer
